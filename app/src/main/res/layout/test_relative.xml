@@ -3,7 +3,7 @@
     android:layout_width="match_parent" android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/text_weight"
+        android:id="@+id/ed_weight"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="17dp"
@@ -16,29 +16,29 @@
         android:layout_marginTop="13dp" />
 
     <EditText
-        android:id="@+id/ed_weight"
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="11dp"
         android:ems="10"
         android:inputType="numberDecimal"
-        android:layout_below="@+id/text_weight"
-        android:layout_alignLeft="@+id/text_weight"
-        android:layout_alignStart="@+id/text_weight" />
+        android:layout_below="@+id/ed_weight"
+        android:layout_alignLeft="@+id/ed_weight"
+        android:layout_alignStart="@+id/ed_weight" />
 
     <TextView
         android:id="@+id/text_heigh"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/ed_weight"
-        android:layout_alignStart="@+id/ed_weight"
-        android:layout_below="@+id/ed_weight"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_below="@+id/textView"
         android:layout_marginTop="13dp"
         android:text="Heigh"
         android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
     <EditText
-        android:id="@+id/ed_heigh"
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="11dp"
@@ -56,9 +56,9 @@
         android:layout_marginStart="12dp"
         android:layout_marginTop="11dp"
         android:text="CALCULATE BMI"
-        android:layout_below="@+id/ed_heigh"
-        android:layout_alignLeft="@+id/ed_heigh"
-        android:layout_alignStart="@+id/ed_heigh" />
+        android:layout_below="@+id/textView2"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
 
     <Button
         android:id="@+id/b_help"
