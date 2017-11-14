@@ -27,7 +27,10 @@ public class MainActivity extends AppCompatActivity {
                         .show();
             }
         });
+
     }
+
+
     public void bmi(View view){
         //System.out.println("hahahaha");
         //Log.d("MainActivity","testing bmi method");
@@ -48,7 +51,13 @@ public class MainActivity extends AppCompatActivity {
                    "Your BMI is " + bmi,
                    Toast.LENGTH_SHORT).show();
                    */
-       if (bmi < 20){
+        if (heigh >3){
+            new AlertDialog.Builder(this)
+                    .setMessage(R.string.heigh_pro)
+                    .setTitle(R.string.bmi_title)
+                    .setPositiveButton(R.string.ok, null)
+                    .show();
+        }else if (bmi < 20){
        new AlertDialog.Builder(this)
                .setMessage(getString(R.string.your_bmi_is) +bmi+getString(R.string.eat_more))
                .setTitle(R.string.bmi_title)

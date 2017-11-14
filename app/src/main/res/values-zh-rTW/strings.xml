@@ -6,7 +6,8 @@
     <string name="bmi_title">BMI提示</string>
     <string name="calculate_bmi">計算BMI</string>
     <string name="info">說明</string>
-    <string name="ok">確認</string>
+    <string name="ok">OK</string>
     <string name="your_bmi_is">您的BMI值為</string>
     <string name="eat_more">  請多吃點</string>
+    <string name="heigh_pro">身高單位應為公尺</string>
 </resources>
